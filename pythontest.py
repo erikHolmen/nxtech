@@ -13,7 +13,7 @@ with open('temperature.txt', 'r') as f:
 def getTemperature():
     global p
     v = a[p]
-    time.sleep(0.01)
+    time.sleep(0.1)
     p+=1
     if p>=len(a):
         p=0
